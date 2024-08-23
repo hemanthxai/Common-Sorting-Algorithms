@@ -1,31 +1,25 @@
-# a = [9, 3, 1, 5, 7, 4, 9, 6, 2]
-
-
-# for i in range(len(a)):
-#     minn = i
-#     for j in range(i + 1, len(a)):
-#         if a[j] < a[minn]:
-#             minn = j
-
-#     a[minn], a[i] = a[i], a[minn]
-
-# print(a)
-
-from typing import List
-
-
-def selectionsort(a: List) -> List:
-    print(f"unsorted array is:\n{a}\n")
+def selectionsort(a):
+    # Iterate over the entire list
     for i in range(len(a)):
+        # Assume the current index 'i' has the minimum value
         min = i
+        
+        # Iterate over the rest of the list to find the actual minimum value
         for j in range(i + 1, len(a)):
+            # Update 'min' if a smaller element is found
             if a[j] < a[min]:
                 min = j
+        
+        # Swap the found minimum element with the element at index 'i'
         a[min], a[i] = a[i], a[min]
+        
+        # Print the list after each swap to show progress
         print(a)
-    print("\nhence sorted array is")
-    return a
 
+    return a  # Return the sorted list
 
+# Sample 
 a = [9, 3, 1, 5, 7, 4, 9, 6, 2]
+
+# Call the selectionsort function and print the sorted list
 print(selectionsort(a))
