@@ -4,7 +4,7 @@ Sorting algorithms are fundamental to computer science, playing a critical role 
 **Importance of Sorting Algorithms**<br><br>
 Sorting algorithms are crucial for optimizing the performance of various applications, including:<br>
 
-Search Operations: Sorted data allows for efficient search algorithms like binary search, significantly reducing search time.<br>
-Data Analysis: Sorting is often a pre-processing step in data analysis, helping to organize data for further analysis and visualization.<br>
-Database Management: Efficient sorting is essential for managing large databases, especially when indexing and retrieving data.<br>
-Real-Time Systems: Sorting is used in real-time systems where the timely processing of data is critical.<br>
+**Search Operations:** Sorted data allows for efficient search algorithms like binary search, significantly reducing search time.<br>
+**Data Analysis:** Sorting is often a pre-processing step in data analysis, helping to organize data for further analysis and visualization.<br>
+**Database Management:** Efficient sorting is essential for managing large databases, especially when indexing and retrieving data.<br>
+**Real-Time Systems:** Sorting is used in real-time systems where the timely processing of data is critical.<br>
